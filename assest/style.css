@@ -42,7 +42,17 @@ header{
     }
 
 }
-
+@media screen and (max-height: 425px) {
+    .sec .rightside{
+        margin-top: 0 !important;
+    }
+    .sec .leftside img{
+        width: 400px !important;
+    }
+}
+.navbar-nav{
+    flex-wrap: wrap !important;
+}
 .nav-item{
     margin-left: 20px;
 }
