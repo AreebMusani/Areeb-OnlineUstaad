@@ -1,0 +1,467 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+}
+a{
+    outline: none;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: #6a3093;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    clip-path: polygon(0 0, 100% 0%, 100% 75%, 0% 100%);
+}
+@media screen and (max-width: 991px) {
+    .sec .leftside img{
+        margin-top: -20px;
+        width: 350px !important;
+    }
+    .sec .rightside h1{
+        font-size: 33px !important;
+    }
+    .sec .rightside{
+        /* padding: 60px; */
+        margin-left: 35px;
+    }
+}
+@media screen and (max-width: 767px) {
+    header{
+        height: auto;
+    }
+    .sec .rightside{
+        margin: 50px 0 170px 0;
+        text-align: center;
+    }
+    .sec .leftside{
+        text-align: center;
+        padding: 0 25px;
+    }
+
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+.nav-item a,.navbar-brand{
+    color: #fff !important;
+    font-weight: bold;
+}
+.sec{
+    color: #fff;
+}
+.sec .leftside{
+    padding: 0 25px;
+    margin-top: 25px;
+}
+.sec .leftside img{
+    margin-top: -20px;
+    width: 450px;
+}
+.sec .rightside{
+    /* padding: 60px; */
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.sec .rightside h1{
+    /* font-size: 50px; */
+    font-weight: bold;
+}
+.sec .rightside a{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 15px 35px !important;
+    border-radius: 40px;
+}
+
+/* Course Details */
+.coursedetail{
+    margin: 150px auto;
+}
+.coursedetail a{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 15px 35px !important;
+    border-radius: 40px;
+}
+.coursedetail img{
+    margin-top: -100px;
+    width: 450px;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* height: 300px; */
+}
+.coursedetail p{
+    text-align: justify;
+    font-size: 14px;
+    color: #727272;
+    margin: 20px 0 20px 0;
+    line-height: 1.6rem;
+    word-spacing: 5px;
+}
+
+/* Courses */
+.heading{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.heading h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.popular-courses .card-title{
+    font-size: 14px;
+    color: #303030;
+    margin: 10px 0 20px 0;
+}
+.card-text{
+    font-weight: bold;
+}
+.star i{
+    color: orange;
+}
+.star span{
+    color: #727272;
+}
+.price .offer{
+    color: #C7C7C7;
+    text-decoration: line-through;
+    margin-right: 14px;
+}
+.card,.card a{
+    overflow: hidden;
+}
+.popular-courses .card img{
+    width:100%;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+}
+.popular-courses .card:hover img{
+    opacity: 0.5;
+    transform: scale(120%);
+}
+.card-text a{
+    text-decoration: none;
+    color: #000;
+}
+.card-text a:hover{
+    color: orange;
+}
+.margin-bottom{
+    margin-bottom: 50px;
+}
+.coursebtn a{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 15px 35px !important;
+    border-radius: 40px;
+}
+
+
+/* Testimonials */
+.testimonial{
+    padding: 100px 0;
+    position: relative;
+    z-index: 0;
+    margin: 100px auto;
+    width: 100%;
+    height: auto;
+    background-image: url(Images/testmonial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.testimonial-text{
+    z-index: 1;
+}
+.testimonial-text p{
+    margin: 50px 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.testimonial-text div{
+    color: #fff;
+}
+
+/* Our-teachers */
+.Our-teachers p i{
+    color: #ff4c4c;
+    font-size: 1.2em;
+    padding-right: .5em;
+}
+.Our-teachers h4{
+    margin:20px 0;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* footer */
+
+.footer{
+    margin: 150px 0 -16px 0;
+    color: #fff;
+    padding: 100px 0 0 0;
+    width: 100%;
+    background: #6a3093;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.footer h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer h3{
+    font-size: 24px;
+}
+.footer p,.footer p a{
+    color: rgb(207, 196, 196);
+    font-size: 14px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.box a{
+    display: inline-block;
+    /* background-color: rgb(207, 196, 196); */
+    color: #fff;
+    border: 1px solid none;
+    /* padding: 10px; */
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px !important;
+    margin-right: 20px;
+    font-size: 16px;
+    text-align: center;
+    transition: .3s ease-in-out;
+}
+
+.facebook:hover{
+    color: #fff;
+    background-color: #4c5fd7;
+}
+
+.whatsapp:hover{
+    color: #fff;
+    background-color: #075e54;
+}
+
+.twitter:hover{
+    background-color:#00acee;
+}
+.instagram:hover{
+    background-color: #c32aa3;  
+}
+.copyright p{
+    padding: 50px 0;
+    text-align: center;
+    font-size: 20px;
+}
+/* Back to top Button */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #0069D9; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    -webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+/* Contact Us */
+.headinfo h1{
+    text-align: center;
+    padding: 150px 0 ;
+    color: #0069D9;
+}
+.headinfo h1 a{
+    color: #fff;
+    text-decoration: none;
+}
+.map{
+    width: 100%;
+    height: auto;
+}
+.map iframe{
+    width: 100%;
+    height: 500px;
+}
+.contact-form .con-head{
+    margin: 100px 0 20px 0 !important;
+}
+.contact-form .con-head h2{
+    font-weight: bold;
+}
+.contact-form label{
+    color: #727272;
+}
+.contact-form input,.contact-form textarea{
+    padding: 12px 20px;
+}
+.contact-form input::placeholder,textarea::placeholder{
+    font-size: 12px;
+}
+.contact-form .button{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 15px 35px;
+}
+
+.contact-form .sidebar{
+   display: flex;
+   flex-direction: row;
+   /* flex-wrap: wrap; */
+   margin-bottom: 50px;
+}
+.contact-form .sidebar h3{
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+.contact-form .sidebar p{
+    font-size: 12px;
+    margin-top: 2px;
+    color: #8a8a8a !important;
+}
+.contact-form .sidebar .img{
+    margin-right: 10px;
+}
+.contact-form i{
+    font-size: 40px;
+    color: #8a8a8a !important;
+}
+/* About Us */
+.about img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.about h2{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.about p{
+    font-size: 14px;
+    word-spacing: 5px;
+    line-height: 1.5rem;
+    color: #727272;
+}
+
+/* Courses Page */
+.card-btn button{
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+}
+.course-pagination .pagination{
+    flex-direction: row;
+    justify-content: right;
+}
+.search{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-bottom: 20px;
+}
+.input-group.md-form.form-sm.form-1 input{
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.form-1{
+      text-align: right;
+      width: 335px;
+      /* display: flex;
+      flex-direction: row;
+      justify-content: right; */
+}
+.search .blue{
+    background-color: #0069D9;
+}
+/* login */
+.form{
+    width: 400px;
+    margin: auto;
+    height: auto;
+    background: #9152f8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(top, #7579ff, #b224ef);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(top, #7579ff, #b224ef);
+    /* background: linear-gradient(top,#7579ff,#b224ef) !important; */
+}
+.form form{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.form-data{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.form-data a{
+    text-decoration: none;
+    color: white;
+}
+.form-btn button{
+    width: 100% !important;
+}
+.profile-img i{
+    margin: 50px 0 10px 0 !important;
+}
+.form-head{
+    color: white;
+    width: 100%;
+    vertical-align:middle;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-head .head{
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-data{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.last-sec{
+    color: white;
+    font-size: 15px;
+}
+.last-sec p{
+   padding: 10px 0 50px 0;
+}
+.last-sec a{
+    /* text-decoration: none; */
+    color: white;
+}
